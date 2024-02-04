@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #C1E1FF;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 156px;
+    height: auto;
+  }
+
+.container {
+    /* width: 400px;
+    padding: 20px;
+    margin: 100px auto;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1); */
+    background-color: white;
+    padding: 48px;
+    border-radius: 15px;
+    border: 1px solid black;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    width: 293px;
+    height: 260px;
+    margin: 100px auto;
+
+    box-shadow: 1px 1px;
+}
+
+label {
+    color: #22539F;
+    font-weight: 530;
+}
+
+h1 {
+    text-align: center;
+    color: #1858BA;
+    font-weight: 1000;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    margin-bottom: 20px;
+    padding: 8px;
+    border: 1px solid #22539F;
+    border-radius: 12px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: large;
+    width: 155px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.forgot {
+    color: #007BFF;
+    text-decoration: none;
+    text-align: right;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.Register{
+    text-align: center;
+}

@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    width: 100%;
+    background-image: url(images/APBG.jpeg);
+    background-size: auto;
+    display: flex;
+    background: #59b8fc;
+}
+
+#menu {
+    padding: 10px 30px;
+    width: fit-content;
+    width: 258px;
+    height: 100vh;
+}
+
+.items li button {
+    padding: 10px;
+    background-color: #c1e1ff;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.logo img {
+    width: auto;
+    height: 164px;
+}
+
+.items li button img {
+    width: 20px;
+    height: auto;
+}
+
+#menu .items .robot img {
+    position: absolute;
+    left: 0.5%;
+    bottom: 1%;
+}
+
+#menu .items {
+    margin-top: 40px;
+}
+
+#menu .items li {
+    list-style: none;
+    padding: 15px 0;
+}
+
+#menu .items button:hover {
+    background: #c1e1ff89;
+    cursor: pointer;
+}
+
+#interface .profile img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#interface .profile button {
+    border: none;
+    cursor: pointer;
+}
+
+#interface .profile {
+    background-color: #c1e1ff;
+    position: relative;
+    /* padding-left: auto; */
+    padding-left: 91.4%;
+}
+
+.board .editremove img {
+    display: block;
+    padding: 5px;
+}
+
+.board table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.board table thead td {
+    color: #c1e1ff;
+    text-align: left;
+    font-size: 4rem;
+    font-weight: 600;
+    padding: 1rem;
+}
+
+.board table tbody td {
+    padding: 1rem;
+}
+
+.board {
+    background-color: black;
+    opacity: 0.7;
+    font-size: 5ch;
+    color: #c1e1ff;
+}
+
+.board .satu {
+    display: flex;
+}
+
+.remove {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    outline: none;
+}

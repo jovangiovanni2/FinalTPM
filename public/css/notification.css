@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: gray;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.container{
+    background: #C1E1FF;
+    max-width: 450px;
+    border-radius: 0px;
+    /* padding: 20px 20px; */
+    text-align: center;
+    margin-top: 10px;
+    width: auto;
+    padding-bottom: 100px;
+}
+
+.container .header{
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    font-weight: 550;
+    font-size: 50px;
+}
+
+.container .box{
+    margin-top: 10px;
+    padding-top: 1px;
+    background-color: #D7E0E8;
+    border-radius: 10px;
+}
+
+.container .box h2{
+    border-bottom: 1px solid black;
+}
+
+.container .box .message{
+    padding: 20px 20px;
+}
+
+.container .box .time{
+    font-size: 10px;
+    margin-right: 70%;
+    padding-bottom: 10px;
+}
+
+.container .box2 {
+    margin-top: 50px;
+    background-color: #D7E0E8;
+    padding-top: 1px;
+    border-radius: 10px;
+
+}
+
+.container .box2 h2{
+    border-bottom: 1px solid black;
+}
+
+.container .box2 .message{
+    padding: 20px 20px;
+}
+
+.container .box2 .time{
+    font-size: 10px;
+    margin-right: 70%;
+    padding-bottom: 10px;
+}
+
+.container .box, .box2{
+    box-shadow: 1px 3px 8px black;
+}

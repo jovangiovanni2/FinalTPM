@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100%;
+    background-image: url(images/APBG.jpeg);
+    background-size: auto;
+    display: flex;
+}
+
+#interface .profile img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#interface .profile button{
+    border: none;
+    cursor: pointer;
+}
+
+#interface .profile {
+    background-color: #C1E1FF;
+}
+
+#interface .profile .nots{
+    position: relative;
+    padding-left: 87%;
+}
+
+.board .Detail img{
+    width: auto;
+    height: 50px;
+    display: block;
+    padding: 5px;
+}
+
+.board h5{
+    font-size: larger;
+    color: #C1E1FF;
+    font-size: 5ch;
+}
+
+.board table thead td{
+    color: #C1E1FF;
+    text-align: left;
+    font-size: 5ch;
+    font-weight: 600;
+}
+
+.TN, .univ{
+    color: #C1E1FF;
+    background-color: black;
+    opacity: 0.5;
+    padding-left: 2%;
+}
+
+.TN{
+    padding-top: 5%;
+}
+
+#logo img{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 200px;
+    height: 200px;
+}
+
+#logo .back{
+    margin-top: 10px;
+    margin-left: 80%;
+    display: absolute;
+    right: 0;
+    width: 222px;
+    height: 83px;
+    font-weight: 1000;
+    background: none;
+    color: #C1E1FF;
+    border-radius: 10px;
+    font-size: xx-large;
+    border-color: #C1E1FF;
+    border-width: 5px;
+    cursor: pointer;
+}
+
+#logo .back:hover{
+    background-color: #C1E1FF;
+    color: blue;
+    border-color: blue;
+}
+
+td{
+    padding: 20px 20px;
+}
+
+.No h5{
+    font-size: large;
+}
+
+.board{
+    background-color: black;
+    opacity: 0.5;
+}
